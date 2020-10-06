@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class MediaItemComponent {
   name = 'The Redemption';
+  wasWatched() {
+    return true;
+  }
 }
